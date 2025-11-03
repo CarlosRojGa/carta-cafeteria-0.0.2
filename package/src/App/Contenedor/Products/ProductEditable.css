@@ -6,13 +6,6 @@
   margin: 6px 0;
 }
 
-.info {
-  display: flex;
-  justify-content: space-between;
-  flex: 1;
-  gap: 15px;
-}
-
 .name {
   flex: 1;
   text-align: left;

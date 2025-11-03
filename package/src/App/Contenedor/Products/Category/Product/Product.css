@@ -1,45 +1,13 @@
 .product {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 4px 40px;
-  margin: 5px 0;
+    padding: 0 40px 0 40px;
+}
+.price, .name {
+    display: inline-block;
+    width: 50%;
+    margin: 0;
+    margin-top: 2px;
 }
 
-/* Nombre a la izquierda */
-.name {
-  flex: 1;
-  text-align: left;
-  margin: 0;
-  font-weight: 500;
-}
-
-/* Precio alineado a la derecha */
 .price {
-  text-align: right;
-  width: 80px;
-  margin: 0 15px 0 0;
-  font-weight: bold;
-}
-
-/* Contenedor de los botones */
-.actions {
-  display: flex;
-  gap: 6px;
-}
-
-/* Botones CRUD */
-.actions button {
-  background-color: #a86b33;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  padding: 4px 8px;
-  cursor: pointer;
-  font-size: 0.85em;
-  transition: background-color 0.2s ease;
-}
-
-.actions button:hover {
-  background-color: #7b4b21;
+    text-align: right;
 }
