@@ -1,0 +1,29 @@
+.product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 40px;
+  margin: 6px 0;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  gap: 15px;
+}
+
+.name {
+  flex: 1;
+  text-align: left;
+  margin: 0;
+  font-weight: 500;
+}
+
+.price {
+  width: 80px;
+  text-align: right;
+  margin: 0;
+}
+
+
